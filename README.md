@@ -23,33 +23,9 @@ Just read the code, run the code, edit the code and see what it does.
 
 *This is a work in progress, more will be added soon.*
 
-### Basics:
+### - Basics
 
-- [x] Beginner Instructions
-- [x] Variables and Input
-- [x] if/elif Statements
-- [x] While loops
-- [x] For loops
-- [x] Importing Modules
-- [x] Functions
-- [x] Scope
-- [x] Exceptions
-- [x] Number Guessing Example
-- [x] Collatz Sequence Example
-- [x]	The List Data Type
-- [x]	More Advanced List Functionalities
-- [x]	Fortune Telling Example Program
-- [x]	List-like types/ Tuples
-- [x]	References to variables
-- [x]	The Dictionary Data Type
-- [x]	Dictionary Items, Keys and Values
-- [x]	Get method in Dictionaries
-- [x]	Multidimensional Dictionaries
-- [x]	What's in my Sack Dictionary Example Program
-- [x]	String Manipulation
-- [x]	String Methods
-- [x] Whitespaces in Strings
-- [x] Clipboard Manipulation
+### - Regular Expressions
 
 ---
   
