@@ -25,7 +25,17 @@ Just read the code, run the code, edit the code and see what it does.
 
 ### - Basics
 
+Essential knowledge to start using Python.
+Basic data structures and flow control.
+
 ### - Regular Expressions
+
+Pattern finding in strings.
+Like your CTRL+F function
+
+### - File Manipulation [in progress]
+
+*Coming up next*
 
 ---
   
