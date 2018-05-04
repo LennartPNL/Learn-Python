@@ -33,7 +33,12 @@ Basic data structures and flow control.
 Pattern finding in strings.
 Like your CTRL+F function
 
-### - File Manipulation [in progress]
+### - File Manipulation 
+
+Opening, creating, deletig files and folders.
+Also save variables to a file.
+
+### - Organizing Files [in progress]
 
 *Coming up next*
 
