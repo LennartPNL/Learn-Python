@@ -1,0 +1,2 @@
+I just opened this file in write mode and now everything is gone
+But now i can safely add stuff without losing all my progress
