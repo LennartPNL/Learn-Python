@@ -38,11 +38,13 @@ Like your CTRL+F function
 Opening, creating, deletig files and folders.
 Also save variables to a file.
 
-### - Organizing Files [in progress]
+### - Organizing Files 
 
-*Coming up next*
+Sorting files, finding files, copying and compressing them.
+Zippin' n' bippin'.
 
----
+
+#### More...
   
 
 Python is a versatile programming language with a clean syntax. 
