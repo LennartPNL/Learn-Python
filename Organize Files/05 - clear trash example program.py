@@ -27,7 +27,7 @@ while i < 10:
 
         for filename in filenames:
             # Telling the program which files to keep
-            if not filename.lower().endswith(('.avi', '.mp4', '.mkv', '.srt', '.ini')) and not 'clearTrash.py' in filename and not 'logTrashClear.txt' in filename:
+            if not filename.lower().endswith(('.avi', '.mp4', '.mkv', '.srt', '.ini', 'wmv', 'flv')) and not 'clearTrash.py' in filename and not 'logTrashClear.txt' in filename:
                 try:
                     os.unlink(folder + '/' + filename)
                     f.write('- ' + folder + ': ' + filename + ' is deleted! \n')
