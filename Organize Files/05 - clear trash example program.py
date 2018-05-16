@@ -10,16 +10,13 @@ import time
 import datetime
 import shutil
 
-#WARNING
-# Don't run this anywhere else but in your video collection!
-
 # First, let's get our current working directory
 cwd = os.getcwd()
 
 f = open('logTrashClear.txt', 'a')
 
 # Writing the current time to the log file
-f.write("==========Ran at: " + str(datetime.datetime.now()) + '==========') 
+f.write("==========Ran at: " + str(datetime.datetime.now()) + '==========')
 f.write('\n\n')
 
 i = 0
@@ -33,10 +30,11 @@ while i < 10:
             if not filename.lower().endswith(('.avi', '.mp4', '.mkv', '.srt', '.ini')) and not 'clearTrash.py' in filename and not 'logTrashClear.txt' in filename:
                 try:
                     os.unlink(folder + '/' + filename)
-                except Exception as e: 
+                    f.write('- ' + folder + ': ' + filename + ' is deleted! \n')
+                except Exception as e:
                     f.write('FILE - ' + folder+ '\\' + filename + ' threw error %s. \n' % e)
                 # Logging what files are being deleted
-                f.write('- ' + folder + ': ' + filename + ' is deleted! \n')
+
 
         for subfolder in subfolders:
             # If the list of items in a folder returns false, the folder is empty
@@ -44,7 +42,7 @@ while i < 10:
                 # So we remove the folder
                 try:
                     shutil.rmtree(folder + '/' + subfolder)
-                except Exception as e: 
+                except Exception as e:
                     f.write('FOLDER - ' + folder+ '\\' + subfolder + ' threw error %s. \n' % e)
 
     i = i + 1
