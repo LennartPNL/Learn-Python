@@ -1,0 +1,6 @@
+ 2018-05-23 20:34:28,656 - DEBUG - Writing to this file...
+ 2018-05-23 20:34:28,657 - DEBUG - This is the deepest level of logging
+ 2018-05-23 20:34:28,657 - INFO - General info: check if your program is working like it should
+ 2018-05-23 20:34:28,657 - WARNING - Indicating potential problems
+ 2018-05-23 20:34:28,657 - ERROR - Show program breakers
+ 2018-05-23 20:34:28,657 - CRITICAL - indicate fatal errors

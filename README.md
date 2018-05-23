@@ -43,6 +43,11 @@ Also save variables to a file.
 Sorting files, finding files, copying and compressing them.
 Zippin' n' bippin'.
 
+### - Debugging
+
+Super boring but quite useful code testing. 
+Make sure your code doesn't try anything weird.
+
 
 #### More...
   

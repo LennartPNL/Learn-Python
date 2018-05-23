@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "D:/OneDrive/Dev/Learn-Python/Debugging/02 - traceback.py", line 6, in <module>
+    raise Exception('Error!')
+Exception: Error!
