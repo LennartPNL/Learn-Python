@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Piraato</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;amp;lang=en"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+</head>
+
+<body id="top">
+
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+    <!--Floating Button-->
+
+    
+        <a href="contact.php" id="contact-button"
+
+       class="mdl-button mdl-button--fab mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast mdl-shadow--4dp">
+        <i class="material-icons">airline_seat_individual_suite</i>
+        </a>
+    
+    <!--Header-->
+
+    
+
+<header class="mdl-layout__header mdl-layout__header--waterfall site-header ">
+    <div class="mdl-layout__header-row site-logo-row"><span class="mdl-layout__title">
+            <div class="site-logo"></div><span class="site-description">Piraato</span></span></div>
+    <div class="mdl-layout__header-row site-navigation-row mdl-layout--large-screen-only">
+        <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font"><a class="mdl-navigation__link"
+                                                                                   href="index.php">Home</a><a
+                class="mdl-navigation__link" href="projects.php">Projects</a><a class="mdl-navigation__link"
+                                                                                  href="about.php">About</a><a
+                class="mdl-navigation__link" href="contact.php">Contact</a>
+        </nav>
+    </div>
+</header>
+
+    <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+        <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font"><a class="mdl-navigation__link"
+                                                                                   href="index.php">Home</a><a
+                class="mdl-navigation__link" href="projects.php">Projects</a><a class="mdl-navigation__link"
+                                                                                   href="about.php">About</a><a
+                class="mdl-navigation__link" href="contact.php">Contact</a>
+        </nav>
+    </div>
+
+    <main class="mdl-layout__content">
+
+        <div class="site-content">
+
+            <div class="container">
+                <div class="mdl-grid site-max-width">
+
+                    <!--Welcome box-->
+
+                    <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp welcome-card portfolio-card">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Welcome to Piraato.nl</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            This website showcases some of my projects!
+                            Most of them are available on my GitHub.
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
+                               href=" https://github.com/Piraato" target="_blank">
+                                <i class="material-icons">insert_link</i>
+                                Check my GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--About me box homepage-->
+
+                <section class="section--center mdl-grid site-max-width">
+                    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--indigo darken-3 mdl-color-text--white  mdl-shadow--4dp">
+                        <i class="material-icons">code</i>
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone  mdl-shadow--4dp">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">About me</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            I am currently studying at the NHL-Stenden &quot;University&quot; to become a software engineer.
+                            Emmen is the place to be, if you like to stay inside and do nothing special in the weekends.
+                            Besides programming, I like to go to the gym and doing nothing all day.
+                        </div>
+                        <div class="mdl-card__actions  mdl-card--border">
+                            <a href="about.php"
+                               class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">
+                                <li class="small material-icons">mood</li>
+                                More About Me</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!--Projects block-->
+
+                <section class="section--center mdl-grid site-max-width">
+                    <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Featured projects</h2>
+                        </div>
+                        <section class="section--center mdl-grid site-max-width">
+
+                            <!--Python-->
+
+                            <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                                <div class="mdl-card__media">
+                                    <a href="projects/python-tutorial.php"><img class="article-image mdl-shadow--2dp"
+                                                                        src="img/projects/python.jpg" border="0"
+                                                                        alt="python"></a>
+                                </div>
+                                <div class="mdl-card__title">
+                                    <h2 class="mdl-card__title-text">Python Tutorial</h2>
+                                </div>
+                                <div class="mdl-card__supporting-text">
+                                    I am working on a Python tutorial.
+                                    If you would like to learn some Python by examples, you should check <a
+                                            target="_blank"
+                                            href="https://github.com/Piraato/Learn-Python">this</a> out.
+
+                                </div>
+                            </div>
+
+                            <!--Battlebot-->
+
+                            <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                                <div class="mdl-card__media">
+                                    <a href="projects/battle-bot.php"><img class="article-image mdl-shadow--2dp"
+                                                                            src="img/projects/battlebot.jpg" border="0"
+                                                                            alt=""></a>
+                                </div>
+                                <div class="mdl-card__title">
+                                    <h2 class="mdl-card__title-text">Battlebot</h2>
+                                </div>
+                                <div class="mdl-card__supporting-text">
+                                    A Battlebot programmed with Arduino.
+                                    Not my proudest work, but it won the competition!
+
+                                </div>
+                            </div>
+
+                            <!--Twitter bot-->
+
+                            <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                                <div class="mdl-card__media">
+                                    <a href="projects/twitter-bot.php"><img class="article-image mdl-shadow--2dp"
+                                                                             src="img/projects/twit.png" border="0"
+                                                                             alt=""></a>
+                                </div>
+                                <div class="mdl-card__title">
+                                    <h2 class="mdl-card__title-text">Twitter bot</h2>
+                                </div>
+                                <div class="mdl-card__supporting-text">
+                                    More news will follow!
+
+                                </div>
+                            </div>
+
+                            <!--Text under boxes in project box-->
+
+                            <div class="mdl-card__supporting-text">
+                                Usually, I have about 74329 projects I am working on.
+                                The ones that I did not give up on after twelve seconds will be displayed here,
+                                if I think they are worthy of a place on this website.
+                            </div>
+                            <div class="mdl-card__actions  mdl-card--border">
+                                <a href="about.php"
+                                   class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">
+                                    <li class="small material-icons">widgets</li>
+                                    More Projects</a>
+                            </div>
+
+                        </section>
+                    </div>
+                </section>
+
+                <!--Button-->
+
+                <section class="section--center mdl-grid site-max-width homepage-portfolio">
+                    <a class="mdl-button mdl-button--raised mdl-js-button mdl-js-ripple-effect mdl-button--accent"
+                       href="contact.php">Contact me</a>
+                </section>
+
+                <!--Grey above footer-->
+
+                <div class="homepage-footer">
+
+                    <section class="mdl-grid site-max-width">
+
+                        <!--Testimonial card-->
+
+                        <div class="mdl-cell mdl-card mdl-cell--8-col mdl-cell--4-col-tablet  mdl-shadow--4dp portfolio-card">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Stuff people have said about Piraato</h2>
+                            </div>
+                            <ul class="demo-list-three mdl-list">
+                                <li class="mdl-list__item mdl-list__item--three-line">
+                                    <span class="mdl-list__item-primary-content">
+                                        <i class="material-icons mdl-list__item-avatar">accessible</i>
+                                        <span>Wow, this guy is really weird!</span>
+                                        <span class="mdl-list__item-text-body">
+                                        Abby Bonkle, CEO, SuperMouse inc.
+                                    </span>
+                                    </span>
+                                </li>
+                                <li class="mdl-list__item mdl-list__item--three-line">
+                                <span class="mdl-list__item-primary-content">
+                                 <i class="material-icons  mdl-list__item-avatar">mood</i>
+                                 <span>Holy Christ! What a nerd.</span>
+                                    <span class="mdl-list__item-text-body">
+                                    Bobby Edwards, Dipshit, CrazyFrog enterprises.
+                                    </span>
+                                </span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!--Calendar-->
+
+                        <div class="demo-card-event mdl-cell mdl-card mdl-shadow--4dp event-card portfolio-card">
+                            <div class="mdl-card__title mdl-card--expand">
+                                <h4>
+                                    Planned event:<br><br>
+                                    Gettin' Jiggy
+                                    <br>
+                                  May  25,  2018<br>At 09 am                                </h4>
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">
+                                    Add to Calendar
+                                </a>
+                                <div class="mdl-layout-spacer"></div>
+                                <i class="material-icons">event</i>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <!--Small Footer-->
+
+                
+        <footer class="mdl-mini-footer">
+        <div class="footer-container">
+        <div class="mdl-logo">&copy; Piraato
+      2018
+    </main>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js" defer></script>
+</div>
+</body>
+</html>
