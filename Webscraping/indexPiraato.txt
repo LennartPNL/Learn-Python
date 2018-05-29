@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Piraato</title>
+    <meta name="description" content="My Website"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;amp;lang=en"
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -236,7 +237,7 @@
                                     Planned event:<br><br>
                                     Gettin' Jiggy
                                     <br>
-                                  May  25,  2018<br>At 09 am                                </h4>
+                                  May  29,  2018<br>At 08 am                                </h4>
                             </div>
                             <div class="mdl-card__actions mdl-card--border">
                                 <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">
