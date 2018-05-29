@@ -50,7 +50,10 @@ Make sure your code doesn't try anything weird.
 
 ### - Web Scraping
 
-In the making! Stay tuned.
+Some cool features of Beautifulsoup.
+Make the web yours.
+
+
 
 
 #### More...
