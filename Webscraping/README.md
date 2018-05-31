@@ -6,8 +6,14 @@ I've also written a program that extracts data from imdb and writes it to your o
 
 You will need to install the following pips:
 
+
+
 pip install bs4
+
 pip install requests
+
 pip install lxml
+
 pip install mysql-connector-python
+
 pip install random
