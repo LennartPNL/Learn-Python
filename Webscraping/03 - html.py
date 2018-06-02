@@ -35,4 +35,3 @@ print(soup.select('img[src]'))
 # Selects all elements img that have a attribute named alt that has the value of 'python'
 print('Python: ' + str(soup.select('img[alt="python"]')))
 
-

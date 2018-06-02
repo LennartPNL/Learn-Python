@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Piraato</title>
-    <meta name="description" content="My Website"/>
+    <meta name="description" content="This is Piraato&quot;s website."/>
     <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;amp;lang=en"
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -111,7 +111,7 @@
                 <section class="section--center mdl-grid site-max-width">
                     <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
                         <div class="mdl-card__title">
-                            <h2 class="mdl-card__title-text">Featured projects</h2>
+                            <h2 class="mdl-card__title-text"><li class="small material-icons">important_devices</li>&nbsp; Featured projects</h2>
                         </div>
                         <section class="section--center mdl-grid site-max-width">
 
@@ -135,20 +135,20 @@
                                 </div>
                             </div>
 
-                            <!--Battlebot-->
+                            <!--Movie Recommend-->
 
                             <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
                                 <div class="mdl-card__media">
-                                    <a href="projects/battle-bot.php"><img class="article-image mdl-shadow--2dp"
-                                                                            src="img/projects/battlebot.jpg" border="0"
+                                    <a href="projects/movie-recommender.php"><img class="article-image mdl-shadow--2dp"
+                                                                            src="img/projects/mov-pick.jpg" border="0"
                                                                             alt=""></a>
                                 </div>
                                 <div class="mdl-card__title">
-                                    <h2 class="mdl-card__title-text">Battlebot</h2>
+                                    <h2 class="mdl-card__title-text">Movie Picker</h2>
                                 </div>
                                 <div class="mdl-card__supporting-text">
-                                    A Battlebot programmed with Arduino.
-                                    Not my proudest work, but it won the competition!
+                                    Don&#39;t know what to watch tonight?
+                                    Try my random movie recommending bot-thingy <a href="projects/movie-recommender.php">here!</a>
 
                                 </div>
                             </div>
@@ -237,7 +237,7 @@
                                     Planned event:<br><br>
                                     Gettin' Jiggy
                                     <br>
-                                  May  29,  2018<br>At 08 am                                </h4>
+                                  Jun  02,  2018<br>At 03 pm                                </h4>
                             </div>
                             <div class="mdl-card__actions mdl-card--border">
                                 <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">
