@@ -53,7 +53,13 @@ Make sure your code doesn't try anything weird.
 Some cool features of Beautifulsoup.
 Make the web yours.
 
+### - Excel Files
 
+Searching in your file and adding it to lists. Writing all your scraped goat image URLs to a file.
+
+### - PDF and Word files
+
+`coming up`
 
 
 #### More...
