@@ -26,8 +26,7 @@ for items in trumpList:
         urlList.append(items[1])
 
 print(str(len(urlList)) + ' Urls found ')
-
-f = open('trumpUrls.xlsx', 'w')
+f = open('trumpUrls.txt', 'w')
 
 # Writing all found URLs to a text file
 for i in urlList:
