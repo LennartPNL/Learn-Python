@@ -1,4 +1,5 @@
 # Getting text from PDF Files and manipulating PDFs
+# pip install PyPDF2
 
 import PyPDF2
 
