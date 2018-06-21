@@ -27,4 +27,7 @@ def getText(filename):
 
 print("==================================================")
 
+# Getting all text from the netflix document
 print(getText('nf.docx'))
+
+

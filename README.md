@@ -59,7 +59,7 @@ Searching in your file and adding it to lists. Writing all your scraped goat ima
 
 ### - PDF and Word files
 
-`coming up`
+Reading and writing PDFs and DOCX files. Even some brute-forcing!
 
 
 #### More...

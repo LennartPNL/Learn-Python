@@ -67,7 +67,7 @@ write = PyPDF2.PdfFileWriter()
 write.addPage(read.getPage(0))
 
 # Setting a password for the file
-write.encrypt('youaintguessingthispassword')
+write.encrypt('straightforward')
 
 res = open('encrypted.pdf', 'wb')
 
