@@ -61,6 +61,10 @@ Searching in your file and adding it to lists. Writing all your scraped goat ima
 
 Reading and writing PDFs and DOCX files. Even some brute-forcing!
 
+### - CSV and JSON
+
+Easily readable files. Connect some APIs!
+
 
 #### More...
   
