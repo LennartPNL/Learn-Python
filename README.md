@@ -65,6 +65,10 @@ Reading and writing PDFs and DOCX files. Even some brute-forcing!
 
 Easily readable files. Connect some APIs!
 
+### - Scheduling and Launching
+
+Make your program read time. Show a picture in one line of code.
+
 
 #### More...
   
