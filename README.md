@@ -69,6 +69,10 @@ Easily readable files. Connect some APIs!
 
 Make your program read time. Show a picture in one line of code.
 
+### -  Email and SMS
+
+Send and receive emails. Spam your own phone with text messages.
+
 
 #### More...
   
