@@ -21,8 +21,6 @@ Just read the code, run the code, edit the code and see what it does.
 
 ## Contents
 
-*This is a work in progress, more will be added soon.*
-
 ### - Basics
 
 Essential knowledge to start using Python.
@@ -72,6 +70,14 @@ Make your program read time. Show a picture in one line of code.
 ### -  Email and SMS
 
 Send and receive emails. Spam your own phone with text messages.
+
+### - Image Manipulation
+
+Using pillow, we can do some cool stuff with images. Let me see dem coordinates.
+
+### - GUI Automation
+
+Making your computer do all boring stuff. Even with some button recognition.
 
 
 #### More...
