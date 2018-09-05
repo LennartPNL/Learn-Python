@@ -33,7 +33,7 @@ Like your CTRL+F function
 
 ### - File Manipulation 
 
-Opening, creating, deletig files and folders.
+Opening, creating, deleting files and folders.
 Also save variables to a file.
 
 ### - Organizing Files 
@@ -79,6 +79,10 @@ Using pillow, we can do some cool stuff with images. Let me see dem coordinates.
 
 Making your computer do all boring stuff. Even with some button recognition.
 
+### - Machine Learning
+
+Some Machine Learning information. Tensorflow, supervised, unsupervised. Recognize digits now, take over the world later.
+
 
 #### More...
   
@@ -90,5 +94,4 @@ I decided to take a shot at Python because it seems to be used in real life
 much more than the languages i'm being taught in college at the moment.
 Feel free to use, copy and share this code however and wherever you want.
 
-I am not a sad little wanker that accuses you of plagiarism over one line of code. 
 All of the code in this repository can be used anywhere without my permission. 
